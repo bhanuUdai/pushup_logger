@@ -6,6 +6,7 @@ from .models import get_db_connection
 
 @main.route('/')
 def index():
+    print("error====>>>>>>>")
     return render_template('index.html')
 
 @main.route('/profile')
